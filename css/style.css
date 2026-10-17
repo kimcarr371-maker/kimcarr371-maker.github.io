@@ -17,8 +17,8 @@ nav ul{display:flex;flex-wrap:wrap;gap:.25rem 1rem;margin:0;padding:0;list-style
 nav a{display:inline-block;padding:.4rem .25rem;color:var(--navy);font-weight:700;text-decoration:none}
 nav a:hover,nav a[aria-current="page"]{text-decoration:underline}
 main{max-width:72rem;margin:0 auto;padding:2rem 1.25rem}
-.hero{display:grid;grid-template-columns:4fr 8fr;gap:2rem;align-items:center}
-.hero-logo img{display:block;width:100%;max-width:26rem;margin:0 auto}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) min(60%,calc(100vh - 8rem));gap:2rem;align-items:center}
+.hero-logo img{display:block;width:100%;height:auto}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.25rem}
 .card{border:2px solid var(--navy);border-radius:8px;padding:1rem}
 .card h2,.card h3{margin-top:0}
